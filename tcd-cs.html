@@ -31,6 +31,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!-- Theme CSS -->
 
 	<link href="//scss.tcd.ie/tms/2/tms-css.php?cache=210,4,&amp;site_index_key=%2F" media="all" rel="Stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles/cmsclient.css">
+  <link rel="stylesheet" type="text/css" href="styles/bulma.css">
 
 
 	<!-- Theme JS -->
@@ -202,6 +204,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h1>Full Postgraduate Course Listing </h1>
 
 
+
+
 		<a href="//scss.tcd.ie/postgraduate/msc-cs/" class="scss-course scss-course--hide-header">
 			<div class="scss-course--header">
 
@@ -216,6 +220,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				One Year Full Time; MSc in Computer Science
 			</div>
 		</a>
+
+    <div id="SECTION7" class="cms-section-margin7"></div>
+    <section class="section is-hidden" id="CMSSECTION7HOLDER">
+      <div id="CMSSECTION7" class="container is-fluid"></div>
+    </section>
+
 
 	</p>
 <ul class="list">
@@ -1126,6 +1136,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 	</footer>
+
+
+  <div id="cmsaccountname" class="is-hidden">CMSCENTRAL</div>
+  <div id="cmsdisplayitem" class="is-hidden">{}</div>
+  <script>
+  window.onload = function() {
+  zonload_app("index",'')
+  }
+  </script>
+  <script>
+  let cms_assets = 'http://localhost:3010/userassets/'
+  let cms_baseurl = 'http://localhost:3010/content'
+  let cms_protocol = 'http://'
+  let cms_cookie_locale = 'CMSCLIENTLOCALE'
+  let cms_dynamicassets = 'http://localhost:3010/dynamicassets/'
+  let cms_dynamicurl = 'http://localhost:3010/dynamicdata'
+  </script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="scripts/cmsclient.js"></script>
+  <script src="scripts/cmsclientaxios.js"></script></html>
+
 
 </body>
 </html>
