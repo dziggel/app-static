@@ -81,10 +81,10 @@ function getDynamicMenuItemData(holder,d,data) {
   }
 }
 
-function setPageData() {
+function setPageData(p) {
   let a = document.getElementById("cmsaccountname").innerHTML
   if (a) {
-    AXIOSSetPage(setPageElements,a)
+    AXIOSSetPage(setPageElements,a,p)
   }
 }
 let cms_dij = undefined
@@ -601,8 +601,16 @@ function AXIOSSetSubMenu(secondarymenuid, setTemplate) {
   })
 }
 
-function AXIOSSetPage(setTemplate, y) {
-  axios.get(cms_baseurl + '/AXIOSSetPage/' + y, {}).then(function(response) {
+function AXIOSSetPage(setTemplate, y, p) {
+  let u = cms_baseurl
+  u += '/AXIOSSetPage/'
+  u += y
+  if (p) {
+    u += '/'
+    let p1 = encodeURIComponent(p);
+    u += p1
+  }
+  axios.get(u, {}).then(function(response) {
     if (response.data.axioserror) {} else {
       setTemplate(response.data)
     }

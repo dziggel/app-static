@@ -288,7 +288,6 @@ function cms_navbar_item_click() {
   if (k.length > 1) {
     h += '#'+k[1]
   }
-  console.log('clicked '+h)
   history.pushState(null, null, h);
 }
 
@@ -447,7 +446,7 @@ function show_panel(c, tabs, panels) {
 CMS client pages first start by loading page plans and menus
 */
 function zonload_app(p,m) {
-  setPageData()
+  setPageData(p)
   goto()
   zonload_page(m)
 }
