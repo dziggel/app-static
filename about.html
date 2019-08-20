@@ -4,8 +4,34 @@
   <title>app-static - a pretend uni acessing the cms</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" type="text/css" href="styles/cmsclient.css">
+  <link rel="stylesheet" type="text/css" href="styles/bulma.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-<h1>app-static about</>
+      <div id="SECTION7" class="cms-section-margin7"></div>
+      <section class="section is-hidden" id="CMSSECTION7HOLDER">
+        <h1>app-static index section 7</>
+        <div id="CMSSECTION7" class="container is-fluid"></div>
+      </section>
+</section>
+<div id="cmsaccountname" class="is-hidden">CMSCENTRAL</div>
+<div id="cmsdisplayitem" class="is-hidden">{}</div>
+<script>
+window.onload = function() {
+zonload_app("app-static/about",'')
+}
+</script>
+<script>
+let cms_assets = 'http://localhost:3010/userassets/'
+let cms_baseurl = 'http://localhost:3010/content'
+let cms_protocol = 'http://'
+let cms_cookie_locale = 'CMSCLIENTLOCALE'
+let cms_dynamicassets = 'http://localhost:3010/dynamicassets/'
+let cms_dynamicurl = 'http://localhost:3010/dynamicdata'
+</script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="scripts/cmsclient.js"></script>
+<script src="scripts/cmsclientaxios.js"></script></html>
 </body>
 </html>
