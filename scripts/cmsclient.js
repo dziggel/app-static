@@ -454,9 +454,9 @@ function zonload_app(p,m) {
 function zonload_page(m) {
   setDynamicMenu()
   setMediaInDiv('sessionmedia1id','smallprofileimg')
-  var offsetHeight = document.getElementById('navtopid').offsetHeight;
-  var target = document.getElementById("navtopoffsetid");
-  target.style.height=offsetHeight+'px';
+  // var offsetHeight = document.getElementById('navtopid').offsetHeight;
+  // var target = document.getElementById("navtopoffsetid");
+  // target.style.height=offsetHeight+'px';
 }
 
 /*
