@@ -1,0 +1,22 @@
+{
+  "name": "app-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/globethics/app-static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/globethics/app-static/issues"
+  },
+  "homepage": "https://github.com/globethics/app-static",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
