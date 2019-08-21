@@ -1,0 +1,1363 @@
+/*
+_bulma_default contains bulma out of the box. No customisation of styles.
+so no initial-variables
+*/
+/*  navbar hover background color */
+/*  navbar background color */
+/*
+----------------NAVTOP POSITION / NO COLOURS
+*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-FIXED-OFFSET-HEIGHT-VARIABLES
+$navtop-fixed-offset:                 S1-NAVTOP-FIXED-OFFSET-HEIGHT-VALUE;
+S1-NAVTOP-FIXED-OFFSET-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-SMALL-FIXED-OFFSET-HEIGHT-VARIABLES
+$navtop-fixed-offset-small:                 S1-NAVTOP-SMALL-FIXED-OFFSET-HEIGHT-VALUE;
+S1-NAVTOP-SMALL-FIXED-OFFSET-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-POSITION-VARIABLES-*/
+/*-S1-NAVTOP-POSITION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-HEIGHT-VARIABLES
+$navtop-height:                   S1-NAVTOP-HEIGHT-VALUE;
+S1-NAVTOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASE-FIXED-OFFSET-HEIGHT-VARIABLES
+$navbase-fixed-offset:                 S1-NAVBASE-FIXED-OFFSET-HEIGHT-VALUE;
+S1-NAVBASE-FIXED-OFFSET-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASE-SMALL-FIXED-OFFSET-HEIGHT-VARIABLES
+$navbase-fixed-offset-small:                 S1-NAVBASE-SMALL-FIXED-OFFSET-HEIGHT-VALUE;
+S1-NAVBASE-SMALL-FIXED-OFFSET-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASE-POSITION-VARIABLES-*/
+/*-S1-NAVBASE-POSITION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASE-HEIGHT-VARIABLES
+$navbase-height:                   S1-NAVBASE-HEIGHT-VALUE;
+S1-NAVBASE-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-FONT-STYLE-VARIABLES-*/
+/*-S1-NAVROW1-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-FONT-RATIO-VARIABLES-*/
+/*-S1-NAVROW1-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-SMALL-FONT-STYLE-VARIABLES
+$navrow1-small-font-style:                   S1-NAVROW1-SMALL-FONT-STYLE-VALUE;
+S1-NAVROW1-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-SMALL-FONT-RATIO-VARIABLES
+$navrow1-small-font-ratio:                   S1-NAVROW1-SMALL-FONT-RATIO-VALUE;
+S1-NAVROW1-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-TEXT-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW1-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-LINK-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW1-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES
+$navrow1-link-hover-brandcolour:                   S1-NAVROW1-LINK-HOVER-BRANDCOLOUR-VALUE;
+S1-NAVROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-LINK-PADDING-WIDTH-VARIABLES-*/
+/*-S1-NAVROW1-LINK-PADDING-WIDTH-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-PADDING-TOP-HEIGHT-VARIABLES
+$navrow1-padding-top:                   S1-NAVROW1-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVROW1-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navrow1-padding-bottom:                   S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-FONT-STYLE-VARIABLES
+$navbaserow1-font-style:                   S1-NAVBASEROW1-FONT-STYLE-VALUE;
+S1-NAVBASEROW1-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-FONT-RATIO-VARIABLES
+$navbaserow1-font-ratio:                   S1-NAVBASEROW1-FONT-RATIO-VALUE;
+S1-NAVBASEROW1-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-SMALL-FONT-STYLE-VARIABLES-*/
+/*-S1-NAVBASEROW1-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-SMALL-FONT-RATIO-VARIABLES
+$navbaserow1-small-font-ratio:                   S1-NAVBASEROW1-SMALL-FONT-RATIO-VALUE;
+S1-NAVBASEROW1-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-TEXT-BRANDCOLOUR-VARIABLES
+$navbaserow1-text-brandcolour:                   S1-NAVBASEROW1-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVBASEROW1-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-LINK-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW1-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-LINK-PADDING-WIDTH-VARIABLES
+$navbaserow1-link-padding-width:                   S1-NAVBASEROW1-LINK-PADDING-WIDTH-VALUE;
+S1-NAVBASEROW1-LINK-PADDING-WIDTH-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VARIABLES
+$navbaserow1-padding-top:                   S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navbaserow1-padding-bottom:                   S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW2-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-FONT-STYLE-VARIABLES
+$navbaserow2-font-style:                   S1-NAVBASEROW2-FONT-STYLE-VALUE;
+S1-NAVBASEROW2-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-FONT-RATIO-VARIABLES
+$navbaserow2-font-ratio:                   S1-NAVBASEROW2-FONT-RATIO-VALUE;
+S1-NAVBASEROW2-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-SMALL-FONT-STYLE-VARIABLES
+$navbaserow2-small-font-style:                   S1-NAVBASEROW2-SMALL-FONT-STYLE-VALUE;
+S1-NAVBASEROW2-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-SMALL-FONT-RATIO-VARIABLES-*/
+/*-S1-NAVBASEROW2-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES
+$navbaserow2-text-brandcolour:                   S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-LINK-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW2-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW2-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-LINK-PADDING-WIDTH-VARIABLES
+$navbaserow2-link-padding-width:                   S1-NAVBASEROW2-LINK-PADDING-WIDTH-VALUE;
+S1-NAVBASEROW2-LINK-PADDING-WIDTH-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VARIABLES
+$navbaserow2-padding-top:                   S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navbaserow2-padding-bottom:                   S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-FONT-STYLE-VARIABLES
+$navbaserow3-font-style:                   S1-NAVBASEROW3-FONT-STYLE-VALUE;
+S1-NAVBASEROW3-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-FONT-RATIO-VARIABLES
+$navbaserow3-font-ratio:                   S1-NAVBASEROW3-FONT-RATIO-VALUE;
+S1-NAVBASEROW3-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-SMALL-FONT-STYLE-VARIABLES
+$navbaserow3-small-font-style:                   S1-NAVBASEROW3-SMALL-FONT-STYLE-VALUE;
+S1-NAVBASEROW3-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-SMALL-FONT-RATIO-VARIABLES
+$navbaserow3-small-font-ratio:                   S1-NAVBASEROW3-SMALL-FONT-RATIO-VALUE;
+S1-NAVBASEROW3-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-TEXT-BRANDCOLOUR-VARIABLES
+$navbaserow3-text-brandcolour:                   S1-NAVBASEROW3-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVBASEROW3-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-LINK-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW3-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW3-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-LINK-PADDING-WIDTH-VARIABLES
+$navbaserow3-link-padding-width:                   S1-NAVBASEROW3-LINK-PADDING-WIDTH-VALUE;
+S1-NAVBASEROW3-LINK-PADDING-WIDTH-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VARIABLES
+$navbaserow3-padding-top:                   S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navbaserow3-padding-bottom:                   S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-OPACITY-VARIABLES
+$navtop-opacity:                 S1-NAVTOP-OPACITY-VALUE;
+S1-NAVTOP-OPACITY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-RADIUS-VARIABLES
+$navtop-radius:                 S1-NAVTOP-RADIUS-VALUE;
+S1-NAVTOP-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-PADDING-TOP-HEIGHT-VARIABLES
+$navtop-padding-top:                   S1-NAVTOP-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVTOP-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navtop-padding-bottom:                   S1-NAVTOP-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVTOP-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-MARGIN-TOP-HEIGHT-VARIABLES
+$navtop-margin-top:                   S1-NAVTOP-MARGIN-TOP-HEIGHT-VALUE;
+S1-NAVTOP-MARGIN-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-MARGIN-BOTTOM-HEIGHT-VARIABLES
+$navtop-margin-bottom:                   S1-NAVTOP-MARGIN-BOTTOM-HEIGHT-VALUE;
+S1-NAVTOP-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVTOP-BORDER-ON-VARIABLES
+$navtop-border-on:                 S1-NAVTOP-BORDER-ON-VALUE;
+$navtop-border-bottom: 1px;
+$navtop-box-size: 4px;
+$navtop-box-scale: 0.19;
+S1-NAVTOP-BORDER-ON-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW2-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-FONT-STYLE-VARIABLES
+$navrow2-font-style:                   S1-NAVROW2-FONT-STYLE-VALUE;
+S1-NAVROW2-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-FONT-RATIO-VARIABLES
+$navrow2-font-ratio:                   S1-NAVROW2-FONT-RATIO-VALUE;
+S1-NAVROW2-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-SMALL-FONT-STYLE-VARIABLES
+$navrow2-small-font-style:                   S1-NAVROW2-SMALL-FONT-STYLE-VALUE;
+S1-NAVROW2-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-SMALL-FONT-RATIO-VARIABLES
+$navrow2-small-font-style:                   S1-NAVROW2-SMALL-FONT-RATIO-VALUE;
+S1-NAVROW2-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-TEXT-BRANDCOLOUR-VARIABLES
+$navrow2-text-brandcolour:                   S1-NAVROW2-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVROW2-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-LINK-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW2-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW2-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-LINK-PADDING-WIDTH-VARIABLES-*/
+/*-S1-NAVROW2-LINK-PADDING-WIDTH-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-PADDING-TOP-HEIGHT-VARIABLES
+$navrow2-padding-top:                   S1-NAVROW2-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVROW2-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navrow2-padding-bottom:                   S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVROW3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-FONT-STYLE-VARIABLES
+$navrow3-font-style:                   S1-NAVROW3-FONT-STYLE-VALUE;
+S1-NAVROW3-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-FONT-RATIO-VARIABLES
+$navrow3-font-style:                   S1-NAVROW3-FONT-RATIO-VALUE;
+S1-NAVROW3-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-SMALL-FONT-STYLE-VARIABLES
+$navrow3-small-font-style:                   S1-NAVROW3-SMALL-FONT-STYLE-VALUE;
+S1-NAVROW3-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-SMALL-FONT-RATIO-VARIABLES
+$navrow3-small-font-style:                   S1-NAVROW3-SMALL-FONT-RATIO-VALUE;
+S1-NAVROW3-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-TEXT-BRANDCOLOUR-VARIABLES
+$navrow3-text-brandcolour:                   S1-NAVROW3-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVROW3-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-LINK-BRANDCOLOUR-VARIABLES
+$navrow3-link-brandcolour:                   S1-NAVROW3-LINK-BRANDCOLOUR-VALUE;
+S1-NAVROW3-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-LINK-HOVER-BRANDCOLOUR-VARIABLES
+$navrow3-link-hover-brandcolour:                   S1-NAVROW3-LINK-HOVER-BRANDCOLOUR-VALUE;
+S1-NAVROW3-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-LINK-PADDING-WIDTH-VARIABLES
+$navrow3-link-padding-width:                   S1-NAVROW3-LINK-PADDING-WIDTH-VALUE;
+S1-NAVROW3-LINK-PADDING-WIDTH-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-PADDING-TOP-HEIGHT-VARIABLES
+$navrow3-padding-top:                   S1-NAVROW3-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVROW3-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navrow3-padding-bottom:                   S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VARIABLES
+$navfooter-logo-image:                 S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VALUE;
+S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-POSITION-VARIABLES
+$navfooter-position:                   S1-NAVFOOTER-POSITION-VALUE;
+S1-NAVFOOTER-POSITION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-HEIGHT-VARIABLES
+$navfooter-height:                   S1-NAVFOOTER-HEIGHT-VALUE;
+S1-NAVFOOTER-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-PADDING-TOP-HEIGHT-VARIABLES
+$navfooter-padding-top:                   S1-NAVFOOTER-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVFOOTER-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navfooter-padding-bottom:                   S1-NAVFOOTER-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVFOOTER-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-MARGIN-TOP-HEIGHT-VARIABLES
+$navfooter-margin-top:                   S1-NAVFOOTER-MARGIN-TOP-HEIGHT-VALUE;
+S1-NAVFOOTER-MARGIN-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-MARGIN-BOTTOM-HEIGHT-VARIABLES
+$navfooter-margin-bottom:                   S1-NAVFOOTER-MARGIN-BOTTOM-HEIGHT-VALUE;
+S1-NAVFOOTER-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-FONT-RATIO-VARIABLES
+$navfooter-font-ratio:                 S1-NAVFOOTER-FONT-RATIO-VALUE;
+S1-NAVFOOTER-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-FONT-STYLE-VARIABLES
+$navfooter-font:                 S1-NAVFOOTER-FONT-STYLE-VALUE;
+S1-NAVFOOTER-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-SMALL-FONT-RATIO-VARIABLES
+$navfooter-small-font-ratio:                 S1-NAVFOOTER-SMALL-FONT-RATIO-VALUE;
+S1-NAVFOOTER-SMALL-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-SMALL-FONT-STYLE-VARIABLES
+$navfooter-small-font:                 S1-NAVFOOTER-SMALL-FONT-STYLE-VALUE;
+S1-NAVFOOTER-SMALL-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-BORDER-ON-VARIABLES
+$navfooter-border-on:                 S1-NAVFOOTER-BORDER-ON-VALUE;
+$navfooter-border-bottom: 1px;
+$navfooter-box-size: 4px;
+$navfooter-box-scale: 0.19;
+S1-NAVFOOTER-BORDER-ON-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-RADIUS-VARIABLES
+$navfooter-radius:                 S1-NAVFOOTER-RADIUS-VALUE;
+S1-NAVFOOTER-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-OPACITY-VARIABLES
+$navfooter-opacity:                 S1-NAVFOOTER-OPACITY-VALUE;
+S1-NAVFOOTER-OPACITY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VARIABLES
+$navfooter-background-color:                   S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVFOOTER-TEXT-BRANDCOLOUR-VARIABLES
+$navfooter-text-color:                   S1-NAVFOOTER-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVFOOTER-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-LOGO-IMAGE-VARIABLES
+$navaside-logo-image:                 S1-NAVASIDE-LOGO-IMAGE-VALUE;
+S1-NAVASIDE-LOGO-IMAGE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-POSITION-VARIABLES
+$navaside-position:                   S1-NAVASIDE-POSITION-VALUE;
+S1-NAVASIDE-POSITION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-HEIGHT-VARIABLES
+$navaside-height:                   S1-NAVASIDE-HEIGHT-VALUE;
+S1-NAVASIDE-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-PADDING-TOP-HEIGHT-VARIABLES
+$navaside-padding-top:                   S1-NAVASIDE-PADDING-TOP-HEIGHT-VALUE;
+S1-NAVASIDE-PADDING-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-PADDING-BOTTOM-HEIGHT-VARIABLES
+$navaside-padding-bottom:                   S1-NAVASIDE-PADDING-BOTTOM-HEIGHT-VALUE;
+S1-NAVASIDE-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-MARGIN-TOP-HEIGHT-VARIABLES
+$navaside-margin-top:                   S1-NAVASIDE-MARGIN-TOP-HEIGHT-VALUE;
+S1-NAVASIDE-MARGIN-TOP-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-MARGIN-BOTTOM-HEIGHT-VARIABLES
+$navaside-margin-bottom:                   S1-NAVASIDE-MARGIN-BOTTOM-HEIGHT-VALUE;
+S1-NAVASIDE-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-FONT-RATIO-VARIABLES
+$navaside-font-ratio:                 S1-NAVASIDE-FONT-RATIO-VALUE;
+S1-NAVASIDE-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-FONT-STYLE-VARIABLES
+$navaside-font:                 S1-NAVASIDE-FONT-STYLE-VALUE;
+S1-NAVASIDE-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-BORDER-ON-VARIABLES
+$navaside-border-on:                 S1-NAVASIDE-BORDER-ON-VALUE;
+$navaside-border-bottom: 1px;
+$navaside-box-size: 4px;
+$navaside-box-scale: 0.19;
+S1-NAVASIDE-BORDER-ON-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-RADIUS-VARIABLES
+$navaside-radius:                 S1-NAVASIDE-RADIUS-VALUE;
+S1-NAVASIDE-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-OPACITY-VARIABLES
+$navaside-opacity:                 S1-NAVASIDE-OPACITY-VALUE;
+S1-NAVASIDE-OPACITY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-BACKGROUND-BRANDCOLOUR-VARIABLES
+$navaside-background-color:                   S1-NAVASIDE-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-NAVASIDE-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-NAVASIDE-TEXT-BRANDCOLOUR-VARIABLES
+$navaside-text-color:                   S1-NAVASIDE-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVASIDE-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-OPACITY-VARIABLES
+$section-opacity:                 S1-SECTION-OPACITY-VALUE;
+S1-SECTION-OPACITY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-BASEMARGIN-HEIGHT-VARIABLES
+$section-base-margin:                S1-SECTION-BASEMARGIN-HEIGHT-VALUE;
+S1-SECTION-BASEMARGIN-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-RADIUS-VARIABLES
+$section-radius:                 S1-SECTION-RADIUS-VALUE;
+S1-SECTION-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-BORDER-ON-VARIABLES
+$section-border-on:                 S1-SECTION-BORDER-ON-VALUE;
+$section-border-bottom: 1px;
+$section-box-size: 4px;
+$section-box-scale: 0.19;
+S1-SECTION-BORDER-ON-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION1-FULL-WIDTH-ON-VARIABLES
+$section1-border-on:                 S1-SECTION1-FULL-WIDTH-ON-VALUE;
+$section1-padding: initial;
+$section1-margin-left: 0px;
+$section1-margin-right: 0px;
+S1-SECTION1-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION2-FULL-WIDTH-ON-VARIABLES
+$section2-border-on:                 S1-SECTION2-FULL-WIDTH-ON-VALUE;
+$section2-padding: initial;
+$section2-margin-left: 0px;
+$section2-margin-right: 0px;
+S1-SECTION2-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION3-FULL-WIDTH-ON-VARIABLES
+$section3-border-on:                 S1-SECTION3-FULL-WIDTH-ON-VALUE;
+$section3-padding: initial;
+$section3-margin-left: 0px;
+$section3-margin-right: 0px;
+S1-SECTION3-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION4-FULL-WIDTH-ON-VARIABLES
+$section4-border-on:                 S1-SECTION4-FULL-WIDTH-ON-VALUE;
+$section4-padding: initial;
+$section4-margin-left: 0px;
+$section4-margin-right: 0px;
+S1-SECTION4-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION5-FULL-WIDTH-ON-VARIABLES
+$section5-border-on:                 S1-SECTION5-FULL-WIDTH-ON-VALUE;
+$section5-padding: initial;
+$section5-margin-left: 0px;
+$section5-margin-right: 0px;
+S1-SECTION5-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION6-FULL-WIDTH-ON-VARIABLES
+$section6-border-on:                 S1-SECTION6-FULL-WIDTH-ON-VALUE;
+$section6-padding: initial;
+$section6-margin-left: 0px;
+$section6-margin-right: 0px;
+S1-SECTION6-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION7-FULL-WIDTH-ON-VARIABLES
+$section7-border-on:                 S1-SECTION7-FULL-WIDTH-ON-VALUE;
+$section7-padding: initial;
+$section7-margin-left: 0px;
+$section7-margin-right: 0px;
+S1-SECTION7-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION8-FULL-WIDTH-ON-VARIABLES
+$section8-border-on:                 S1-SECTION8-FULL-WIDTH-ON-VALUE;
+$section8-padding: initial;
+$section8-margin-left: 0px;
+$section8-margin-right: 0px;
+S1-SECTION1-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION9-FULL-WIDTH-ON-VARIABLES
+$section9-border-on:                 S1-SECTION9-FULL-WIDTH-ON-VALUE;
+$section9-padding: initial;
+$section9-margin-left: 0px;
+$section9-margin-right: 0px;
+S1-SECTION9-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION10-FULL-WIDTH-ON-VARIABLES
+$section10-border-on:                 S1-SECTION10-FULL-WIDTH-ON-VALUE;
+$section10-padding: initial;
+$section10-margin-left: 0px;
+$section10-margin-right: 0px;
+S1-SECTION10-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION11-FULL-WIDTH-ON-VARIABLES
+$section11-border-on:                 S1-SECTION11-FULL-WIDTH-ON-VALUE;
+$section11-padding: initial;
+$section11-margin-left: 0px;
+$section11-margin-right: 0px;
+S1-SECTION11-FULL-WIDTH-ON-VARIABLES*/
+/*S1-SECTION12-FULL-WIDTH-ON-VARIABLES
+$section12-border-on:                 S1-SECTION12-FULL-WIDTH-ON-VALUE;
+$section12-padding: initial;
+$section12-margin-left: 0px;
+$section12-margin-right: 0px;
+S1-SECTION12-FULL-WIDTH-ON-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION1-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION2-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION2-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION3-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION4-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION4-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION5-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION5-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION6-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION6-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION7-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION7-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION8-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION8-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION9-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION9-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION10-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION10-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION11-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION11-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION12-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section12-background-color:                 S1-SECTION12-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION12-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TEXT-BRANDCOLOUR-VARIABLES
+$section-text-color:                 S1-SECTION-TEXT-BRANDCOLOUR-VALUE;
+S1-SECTION-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H1-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION-H1-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H2-BRANDCOLOUR-VARIABLES
+$section-h2-color:                 S1-SECTION-H2-BRANDCOLOUR-VALUE;
+S1-SECTION-H2-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H3-H6-BRANDCOLOUR-VARIABLES
+$section-h3-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+$section-h4-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+$section-h5-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+$section-h6-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+S1-SECTION-H3-H6-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H1-FONT-RATIO-VARIABLES-*/
+/*-S1-SECTION-H1-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H2-FONT-RATIO-VARIABLES
+$section-h2-font-ratio:                 S1-SECTION-H2-FONT-RATIO-VALUE;
+S1-SECTION-H2-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H3-H6-FONT-RATIO-VARIABLES-*/
+/*-S1-SECTION-H3-H6-FONT-RATIO-VARIABLES*/
+/*S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-SECTION-H2-MARGIN-BOTTOM-HEIGHT-VARIABLES
+$section-h2-base-margin:                 S1-SECTION-H2-MARGIN-BOTTOM-HEIGHT-VALUE;
+S1-SECTION-H2-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-SECTION-H3-H6-MARGIN-BOTTOM-HEIGHT-VARIABLES
+$section-h3-base-margin:                 S1-SECTION-H3-H6-MARGIN-BOTTOM-HEIGHT-VALUE;
+S1-SECTION-H3-H6-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-BUTTON-RADIUS-VARIABLES
+$section-button-radius:                 S1-SECTION-BUTTON-RADIUS-VALUE;
+S1-SECTION-BUTTON-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-IMAGE-RADIUS-VARIABLES
+$section-img-radius:                 S1-SECTION-IMAGE-RADIUS-VALUE;
+S1-SECTION-IMAGE-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-LINK-BRANDCOLOUR-VARIABLES
+$section-link-color:                 S1-SECTION-LINK-BRANDCOLOUR-VALUE;
+S1-SECTION-LINK-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-LINK-HOVER-BRANDCOLOUR-VARIABLES
+$section-link-hover-color:                 S1-SECTION-LINK-HOVER-BRANDCOLOUR-VALUE;
+S1-SECTION-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-ICON-BRANDCOLOUR-VARIABLES
+$section-icon-color:                 S1-SECTION-ICON-BRANDCOLOUR-VALUE;
+S1-SECTION-ICON-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-ICON-HOVER-BRANDCOLOUR-VARIABLES
+$section-icon-hover-color:                 S1-SECTION-ICON-HOVER-BRANDCOLOUR-VALUE;
+S1-SECTION-ICON-HOVER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLE-RADIUS-VARIABLES
+$section-table-radius:                 S1-SECTION-TABLE-RADIUS-VALUE;
+S1-SECTION-TABLE-RADIUS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLE-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section-table-background-color:                 S1-SECTION-TABLE-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION-TABLE-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLE-TEXT-BRANDCOLOUR-VARIABLES
+$section-table-text-color:                 S1-SECTION-TABLE-TEXT-BRANDCOLOUR-VALUE;
+S1-SECTION-TABLE-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLE-OPACITY-VARIABLES
+$section-table-opacity:                 S1-SECTION-TABLE-OPACITY-VALUE;
+S1-SECTION-TABLE-OPACITY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLE-BORDER-BRANDCOLOUR-VARIABLES
+$section-table-border-color:                 S1-SECTION-TABLE-BORDER-BRANDCOLOUR-VALUE;
+S1-SECTION-TABLE-BORDER-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLEHEAD-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section-tablehead-background-color:                 S1-SECTION-TABLEHEAD-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION-TABLEHEAD-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLEHEAD-TEXT-BRANDCOLOUR-VARIABLES
+$section-tablehead-text-color:                 S1-SECTION-TABLEHEAD-TEXT-BRANDCOLOUR-VALUE;
+S1-SECTION-TABLEHEAD-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-TABLEHEAD-FONT-RATIO-VARIABLES
+$section-tablehead-font-ratio:                 S1-SECTION-TABLEHEAD-FONT-RATIO-VALUE;
+S1-SECTION-TABLEHEAD-FONT-RATIO-VARIABLES*/
+.cmscomp_carousel {
+  position: relative; }
+
+.cmscomp_carousel_slides {
+  width: 100%; }
+
+.cmscomp_carousel_next {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: 10%; }
+
+.cmscomp_carousel_prev {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 10%; }
+
+.cmscomp_carousel_dots {
+  position: absolute;
+  z-index: 3;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.cmscomp_carousel_dot_active {
+  color: #FFF; }
+
+.cmscomp_carousel_dot_inactive {
+  color: #205485; }
+
+.cmscomp_carousel_captions {
+  position: absolute;
+  color: #fff;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 2rem; }
+  @media (max-width: 769px) {
+    .cmscomp_carousel_captions {
+      font-weight: 500;
+      font-size: 1.5rem;
+      height: 16vh; } }
+
+.cmscomp_carousel_paragraphs {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  right: 15%;
+  border-radius: 5px;
+  padding: 20px; }
+
+/*--
+*/
+.easefade-slow-8000 {
+  -webkit-animation-name: easefade-slow-8000;
+  -webkit-animation-duration: 8000ms;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: easefade-slow-8000;
+  animation-duration: 8000ms;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes easefade-slow-8000 {
+  0% {
+    opacity: 0.2; }
+  20% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
+  100% {
+    opacity: 0.2; } }
+
+@keyframes easefade-slow-8000 {
+  0% {
+    opacity: 0.2; }
+  20% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
+  100% {
+    opacity: 0.2; } }
+
+/*--
+*/
+.easefade-fast-8000 {
+  -webkit-animation-name: easefade-fast-8000;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: easefade-fast-8000;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes easefade-fast-8000 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes easefade-fast-8000 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*--
+*/
+.easefade-faster-8000 {
+  -webkit-animation-name: easefade-faster-8000;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: easefade-faster-8000;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes easefade-faster-8000 {
+  0% {
+    opacity: 0; }
+  5% {
+    opacity: 1; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes easefade-faster-8000 {
+  0% {
+    opacity: 0; }
+  5% {
+    opacity: 1; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*--
+*/
+.easefade-veryfast-8000 {
+  -webkit-animation-name: easefade-veryfast-8000;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: easefade-veryfast-8000;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes easefade-veryfast-8000 {
+  0% {
+    opacity: 0; }
+  2% {
+    opacity: 1; }
+  98% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes easefade-veryfast-8000 {
+  0% {
+    opacity: 0; }
+  2% {
+    opacity: 1; }
+  98% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+body {
+  color: inherit; }
+
+/*
+  This SASS file contains imported variables to be used accross pages for all
+  Common variables.
+*/
+.section {
+  border-radius: 0px;
+  color: inherit;
+  opacity: inherit;
+  border-bottom: 0px solid lightgrey;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0); }
+
+.section h1 {
+  color: #a574a7;
+  font-size: 1.6rem;
+  margin-bottom: 2vh; }
+
+.section h2 {
+  color: inherit;
+  font-size: inherit;
+  margin-bottom: inherit; }
+
+.section h3 {
+  color: inherit;
+  font-size: 2.2rem;
+  margin-bottom: inherit; }
+
+.section h4 {
+  color: inherit;
+  margin-bottom: inherit; }
+
+.section h5 {
+  color: inherit;
+  margin-bottom: inherit; }
+
+.section h6 {
+  color: inherit;
+  margin-bottom: inherit; }
+
+.section .table {
+  border-radius: 0px;
+  background-color: inherit;
+  color: inherit;
+  opacity: inherit; }
+
+.section table td,
+.section table th {
+  border: 1px solid inherit; }
+
+.section thead,
+.section thead th,
+.section table thead th {
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit; }
+
+.section button {
+  border-radius: 0px; }
+
+.section img {
+  border-radius: 0px; }
+
+.section a {
+  color: inherit; }
+
+.section a:hover {
+  color: inherit; }
+
+.section i {
+  color: inherit; }
+
+.section i:hover {
+  color: inherit; }
+
+.cms-section-margin1,
+.cms-section-margin2,
+.cms-section-margin3,
+.cms-section-margin4,
+.cms-section-margin5,
+.cms-section-margin6,
+.cms-section-margin7,
+.cms-section-margin8,
+.cms-section-margin9,
+.cms-section-margin10,
+.cms-section-margin11,
+.cms-section-margin12 {
+  margin-bottom: 0vh; }
+
+.cms-section-margin1 {
+  margin-top: 0vh; }
+
+#CMSSECTION1HOLDER {
+  padding: inherit; }
+
+#CMSSECTION1 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION2HOLDER {
+  padding: inherit; }
+
+#CMSSECTION2 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION3HOLDER {
+  padding: inherit; }
+
+#CMSSECTION3 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION4HOLDER {
+  padding: inherit; }
+
+#CMSSECTION4 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION5HOLDER {
+  padding: inherit; }
+
+#CMSSECTION5 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION6HOLDER {
+  padding: inherit; }
+
+#CMSSECTION6 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION7HOLDER {
+  padding: inherit; }
+
+#CMSSECTION7 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION8HOLDER {
+  padding: inherit; }
+
+#CMSSECTION8 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION9HOLDER {
+  padding: inherit; }
+
+#CMSSECTION9 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION10HOLDER {
+  padding: inherit; }
+
+#CMSSECTION10 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION11HOLDER {
+  padding: inherit; }
+
+#CMSSECTION11 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION12HOLDER {
+  padding: inherit; }
+
+#CMSSECTION12 {
+  margin-left: 74px;
+  margin-right: 74px; }
+
+#CMSSECTION1,
+.cms-section-margin1 + section,
+.cms-section-margin1 + section blockquote,
+.cms-section-margin1 + section blockquote * {
+  background-color: #dadbf1; }
+
+#CMSSECTION2,
+.cms-section-margin2 + section,
+.cms-section-margin2 + section blockquote,
+.cms-section-margin2 + section blockquote * {
+  background-color: #dfd2f3; }
+
+#CMSSECTION3,
+.cms-section-margin3 + section,
+.cms-section-margin3 + section blockquote,
+.cms-section-margin3 + section blockquote * {
+  background-color: #dadbf1; }
+
+#CMSSECTION4,
+.cms-section-margin4 + section,
+.cms-section-margin4 + section blockquote,
+.cms-section-margin4 + section blockquote * {
+  background-color: #dfd2f3; }
+
+#CMSSECTION5,
+.cms-section-margin5 + section,
+.cms-section-margin5 + section blockquote,
+.cms-section-margin5 + section blockquote * {
+  background-color: #dadbf1; }
+
+#CMSSECTION6,
+.cms-section-margin6 + section,
+.cms-section-margin6 + section blockquote,
+.cms-section-margin6 + section blockquote * {
+  background-color: #dfd2f3; }
+
+#CMSSECTION7,
+.cms-section-margin7 + section,
+.cms-section-margin7 + section blockquote,
+.cms-section-margin7 + section blockquote * {
+  background-color: #dadbf1; }
+
+#CMSSECTION8,
+.cms-section-margin8 + section,
+.cms-section-margin8 + section blockquote,
+.cms-section-margin8 + section blockquote * {
+  background-color: #dadbf1; }
+
+#CMSSECTION9,
+.cms-section-margin9 + section,
+.cms-section-margin9 + section blockquote,
+.cms-section-margin9 + section blockquote * {
+  background-color: #dfd2f3; }
+
+#CMSSECTION10,
+.cms-section-margin10 + section,
+.cms-section-margin10 + section blockquote,
+.cms-section-margin10 + section blockquote * {
+  background-color: #dadbf1; }
+
+#CMSSECTION11,
+.cms-section-margin11 + section,
+.cms-section-margin11 + section blockquote,
+.cms-section-margin11 + section blockquote * {
+  background-color: #dfd2f3; }
+
+#CMSSECTION12,
+.cms-section-margin12 + section,
+.cms-section-margin12 + section blockquote,
+.cms-section-margin12 + section blockquote * {
+  background-color: inherit; }
+
+.logo-image::before {
+  content: url("../img/brand/cmsclient-small.png"); }
+
+/*
+
+Navtop Navigation
+
+*/
+#navtopoffsetid {
+  display: none; }
+
+.navtop {
+  z-index: 45;
+  position: static;
+  right: 0;
+  left: 0;
+  top: 0; }
+
+.navbar_top_spacer {
+  height: 0vh;
+  display: block; }
+  @media (max-width: 769px) {
+    .navbar_top_spacer {
+      display: none; } }
+
+.navbar_top_spacer_small {
+  height: 0vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navbar_top_spacer_small {
+      display: block; } }
+
+/*
+top navrow 1
+*/
+.navrow1 {
+  background-color: #5a70dc;
+  font-family: Oswald;
+  font-size: 1.6rem;
+  color: #f9f9fc;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  @media (max-width: 769px) {
+    .navrow1 {
+      display: none; } }
+
+.navrow1small {
+  background-color: #5a70dc;
+  color: #f9f9fc;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navrow1small {
+      display: block;
+      font-family: inherit;
+      font-size: inherit; } }
+
+.navrow1small .cms-navbar-item,
+.navrow1 .cms-navbar-item {
+  color: #f9f9fc;
+  padding-left: 2vh;
+  padding-right: 2vh; }
+
+.navrow1small .cms-navbar-item:hover,
+.navrow1 .cms-navbar-item:hover {
+  color: inherit; }
+
+/*
+top navrow 2
+*/
+.navrow2 {
+  background-color: #dadbf1;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  @media (max-width: 769px) {
+    .navrow2 {
+      display: none; } }
+
+.navrow2small {
+  background-color: #dadbf1;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navrow2small {
+      display: block;
+      font-family: inherit;
+      font-size: inherit; } }
+
+.navrow2small .cms-navbar-item,
+.navrow2 .cms-navbar-item {
+  color: #aeabab;
+  padding-left: 10vh;
+  padding-right: 10vh; }
+
+.navrow2small .cms-navbar-item:hover,
+.navrow2 .cms-navbar-item:hover {
+  color: #f9f9fc; }
+
+/*
+top navrow 3
+*/
+.navrow3 {
+  background-color: #aeabab;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  @media (max-width: 769px) {
+    .navrow3 {
+      display: none; } }
+
+.navrow3small {
+  background-color: #aeabab;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navrow3small {
+      display: block;
+      font-family: inherit;
+      font-size: inherit; } }
+
+.navrow3small .cms-navbar-item,
+.navrow3 .cms-navbar-item {
+  color: inherit;
+  padding-left: 1vw;
+  padding-right: 1vw; }
+
+.navrow3small .cms-navbar-item:hover,
+.navrow3 .cms-navbar-item:hover {
+  color: inherit; }
+
+.navrow1small .logo-image,
+.navrow1 .logo-image {
+  height: 0vh; }
+
+/*
+
+Base Navigation
+
+*/
+.navbase {
+  z-index: 45;
+  position: static;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+
+.navbar_base_spacer {
+  height: 0vh;
+  display: block; }
+  @media (max-width: 769px) {
+    .navbar_base_spacer {
+      display: none; } }
+
+.navbar_base_spacer_small {
+  height: 0vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navbar_base_spacer_small {
+      display: block; } }
+
+/*
+baserow1
+*/
+.navbaserow1 {
+  background-color: #dadbf1;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  @media (max-width: 769px) {
+    .navbaserow1 {
+      display: none; } }
+
+.navbaserow1small {
+  background-color: #dadbf1;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navbaserow1small {
+      display: block;
+      font-family: Oswald;
+      font-size: inherit; } }
+
+.navbaserow1small .cms-navbar-item,
+.navbaserow1 .cms-navbar-item {
+  color: #5a70dc;
+  padding-left: 1vw;
+  padding-right: 1vw; }
+
+.navbaserow1small .cms-navbar-item:hover,
+.navbaserow1 .cms-navbar-item:hover {
+  color: #40414d; }
+
+/*
+baserow2
+*/
+.navbaserow2 {
+  background-color: #dadbf1;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  @media (max-width: 769px) {
+    .navbaserow2 {
+      display: none; } }
+
+.navbaserow2small {
+  background-color: #dadbf1;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navbaserow2small {
+      display: block;
+      font-family: inherit;
+      font-size: 1.9rem; } }
+
+.navbaserow2small .cms-navbar-item,
+.navbaserow2 .cms-navbar-item {
+  color: #f9f9fc;
+  padding-left: 1vw;
+  padding-right: 1vw; }
+
+.navbaserow2small .cms-navbar-item:hover,
+.navbaserow2 .cms-navbar-item:hover {
+  color: #40414d; }
+
+/*
+baserow3
+*/
+.navbaserow3 {
+  background-color: #dadbf1;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  @media (max-width: 769px) {
+    .navbaserow3 {
+      display: none; } }
+
+.navbaserow3small {
+  background-color: #dadbf1;
+  color: inherit;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: none; }
+  @media (max-width: 769px) {
+    .navbaserow3small {
+      display: block;
+      font-family: inherit;
+      font-size: inherit; } }
+
+.navbaserow3small .cms-navbar-item,
+.navbaserow3 .cms-navbar-item {
+  color: #40414d;
+  padding-left: 1vw;
+  padding-right: 1vw; }
+
+.navbaserow3small .cms-navbar-item:hover,
+.navbaserow3 .cms-navbar-item:hover {
+  color: #aeabab; }
+
+/*
+*/
