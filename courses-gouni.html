@@ -274,7 +274,12 @@ header .multi-column > .dropdown-menu li {
     visibility:visible;
     content:'Staff Profile';
 }		</style>
-	<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+	<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+	<link rel="stylesheet" type="text/css" href="styles-tcd/cmsclient.css">
+  <link rel="stylesheet" type="text/css" href="styles-tcd/bulma.css">
+
+</head>
 
 <body class="archive paged post-type-archive post-type-archive-u_course paged-4 post-type-paged-4 woocommerce-no-js full-width custom-background-empty wpb-js-composer js-comp-ver-5.5.2 vc_responsive elementor-default">
 <a name="top" style="height:0; position:absolute; top:0;" id="top-anchor"></a>
@@ -652,6 +657,26 @@ header .multi-column > .dropdown-menu li {
                                             </div>
                                         </div>
                                     </div><!--/post-item-->
+
+
+
+																		<div id="SECTION5" class="cms-section-margin5"></div>
+																    <section class="section is-hidden" id="CMSSECTION5HOLDER">
+																      <div id="CMSSECTION5" class="container is-fluid"></div>
+																    </section>
+																		<div id="SECTION6" class="cms-section-margin6"></div>
+																    <section class="section is-hidden" id="CMSSECTION6HOLDER">
+																      <div id="CMSSECTION6" class="container is-fluid"></div>
+																    </section>
+																    <div id="SECTION7" class="cms-section-margin7"></div>
+																    <section class="section is-hidden" id="CMSSECTION7HOLDER">
+																      <div id="CMSSECTION7" class="container is-fluid"></div>
+																    </section>
+
+
+
+
+
                             						                          </div><!--/courses-list-->
                         <div class='wp-pagenavi' role='navigation'>
 <span class='pages'>Page 4 of 6</span><a class="first" href="https://www.gouni.edu.ng/course/">&laquo; First</a><a class="previouspostslink" rel="prev" href="https://www.gouni.edu.ng/course/page/3/">&laquo;</a><span class='extend'>...</span><a class="page smaller" title="Page 2" href="https://www.gouni.edu.ng/course/page/2/">2</a><a class="page smaller" title="Page 3" href="https://www.gouni.edu.ng/course/page/3/">3</a><span aria-current='page' class='current'>4</span><a class="page larger" title="Page 5" href="https://www.gouni.edu.ng/course/page/5/">5</a><a class="page larger" title="Page 6" href="https://www.gouni.edu.ng/course/page/6/">6</a><a class="nextpostslink" rel="next" href="https://www.gouni.edu.ng/course/page/5/">&raquo;</a>
@@ -1048,5 +1073,24 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='https://www.gouni.edu.ng/wp-content/themes/university/js/SmoothScroll.js?ver=5.0.4'></script>
 <script type='text/javascript' src='https://www.gouni.edu.ng/wp-content/plugins/u-course/js/custom.js?ver=5.0.4'></script>
 <script type='text/javascript' src='https://www.gouni.edu.ng/wp-includes/js/wp-embed.min.js?ver=5.0.4'></script>
+
+<div id="cmsaccountname" class="is-hidden">CMSCENTRAL</div>
+<div id="cmsdisplayitem" class="is-hidden">{}</div>
+<script>
+window.onload = function() {
+zonload_app("courses-gouni",'')
+}
+</script>
+<script>
+let cms_assets = 'http://localhost:3010/userassets/'
+let cms_baseurl = 'http://localhost:3010/content'
+let cms_protocol = 'http://'
+let cms_cookie_locale = 'CMSCLIENTLOCALE'
+let cms_dynamicassets = 'http://localhost:3010/dynamicassets/'
+let cms_dynamicurl = 'http://localhost:3010/dynamicdata'
+</script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="scripts-cms/cmsclient.js"></script>
+<script src="scripts-cms/cmsclientaxios.js"></script></html>
 </body>
 </html>
