@@ -1,4 +1,27 @@
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Spectral");
+@import url("https://fonts.googleapis.com/css?family=Cardo");
+@import url("https://fonts.googleapis.com/css?family=Cormorant");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -196,6 +219,80 @@ so no initial-variables
 */
 /*  navbar hover background color */
 /*  navbar background color */
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND1-VARIABLES-*/
+/*-S1-COLOUR-BRAND1-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND2-VARIABLES-*/
+/*-S1-COLOUR-BRAND2-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND3-VARIABLES-*/
+/*-S1-COLOUR-BRAND3-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND4-VARIABLES-*/
+/*-S1-COLOUR-BRAND4-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND5-VARIABLES-*/
+/*-S1-COLOUR-BRAND5-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND6-VARIABLES-*/
+/*-S1-COLOUR-BRAND6-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND7-VARIABLES
+$brand7:                   S1-COLOUR-BRAND7-VALUE;
+S1-COLOUR-BRAND7-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND8-VARIABLES
+$brand8:                   S1-COLOUR-BRAND8-VALUE;
+S1-COLOUR-BRAND8-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND9-VARIABLES
+$brand9:                   S1-COLOUR-BRAND9-VALUE;
+S1-COLOUR-BRAND9-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND10-VARIABLES
+$brand10:                   S1-COLOUR-BRAND10-VALUE;
+S1-COLOUR-BRAND10-VARIABLES*/
+/*
+Top 15 google fonts in 2018:   https://kinsta.com/blog/best-google-fonts/
+*/
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-SANS-SERIF-VARIABLES
+$family-sans-serif:                 "S1-FONT-SANS-SERIF-VALUE","PT Sans", "Nunito","Source Sans Serif","Montserrat", sans-serif;
+S1-FONT-SANS-SERIF-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-SERIF-VARIABLES
+$family-serif:                 "S1-FONT-SERIF-VALUE", "Slabo 27px", "Lora", "Merriweather", "Georgia", serif;
+S1-FONT-SERIF-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-FAMILY-VARIABLES-*/
+/*-S1-FONT-FAMILY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-BODY-BACKGROUND-BRANDCOLOUR-VARIABLES
+$body-background-color:                                    S1-BODY-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-BODY-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-BODY-TEXT-BRANDCOLOUR-VARIABLES-*/
+/*-S1-BODY-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-SIZE-RATIO-VARIABLES-*/
+/*-S1-FONT-SIZE-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SIZE-RADIUS-SMALL-PIXELS-VARIABLES
+$radius-small:                        S1-SIZE-RADIUS-SMALL-PIXELS-VALUE;
+S1-SIZE-RADIUS-SMALL-PIXELS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SIZE-RADIUS-PIXELS-VARIABLES
+$radius:                              S1-SIZE-RADIUS-PIXELS-VALUE;
+S1-SIZE-RADIUS-PIXELS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SIZE-RADIUS-LARGE-PIXELS-VARIABLES
+$radius-large:                        S1-SIZE-RADIUS-LARGE-PIXELS-VALUE;
+S1-SIZE-RADIUS-LARGE-PIXELS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-BODY-MARGIN-GAP-PIXELS-VARIABLES
+$gap:                                 S1-BODY-MARGIN-GAP-PIXELS-VALUE;
+S1-BODY-MARGIN-GAP-PIXELS-VARIABLES*/
 /*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -274,7 +371,7 @@ th {
 
 html {
   background-color: inherit;
-  font-size: 16px;
+  font-size: 1.125em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -297,7 +394,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif; }
+  font-family: Cronos Pro Light; }
 
 code,
 pre {
@@ -306,7 +403,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: inherit;
+  color: #333333;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5; }
@@ -840,7 +937,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: sans-serif !important; }
+  font-family: Cronos Pro Light !important; }
 
 .is-family-secondary {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
@@ -1156,7 +1253,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: inherit;
+  color: #333333;
   display: block;
   padding: 1.25rem; }
 
@@ -1207,7 +1304,7 @@ a.box:active {
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: inherit;
+    color: #333333;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -2319,11 +2416,11 @@ a.box:active {
   .progress::-webkit-progress-bar {
     background-color: #dbdbdb; }
   .progress::-webkit-progress-value {
-    background-color: inherit; }
+    background-color: #333333; }
   .progress::-moz-progress-bar {
-    background-color: inherit; }
+    background-color: #333333; }
   .progress::-ms-fill {
-    background-color: inherit;
+    background-color: #333333;
     border: none; }
   .progress.is-white::-webkit-progress-value {
     background-color: white; }
@@ -2411,7 +2508,7 @@ a.box:active {
     animation-name: moveIndeterminate;
     animation-timing-function: linear;
     background-color: #dbdbdb;
-    background-image: linear-gradient(to right, inherit 30%, #dbdbdb 30%);
+    background-image: linear-gradient(to right, #333333 30%, #dbdbdb 30%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 150% 150%; }
@@ -2603,7 +2700,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 6px;
-  color: inherit;
+  color: #333333;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2847,7 +2944,7 @@ a.tag:hover {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: inherit;
+  color: #333333;
   max-width: 100%;
   position: relative; }
 
@@ -3042,7 +3139,7 @@ button.dropdown-item {
   display: block;
   padding: 0.5em 1em; }
   .list-item:not(a) {
-    color: inherit; }
+    color: #333333; }
   .list-item:first-child {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px; }
@@ -3119,7 +3216,7 @@ a.list-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 4px;
-    color: inherit;
+    color: #333333;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -3241,7 +3338,7 @@ a.list-item {
 
 .message-header {
   align-items: center;
-  background-color: inherit;
+  background-color: #333333;
   border-radius: 6px 6px 0 0;
   color: #fff;
   display: flex;
@@ -3264,7 +3361,7 @@ a.list-item {
   border-radius: 6px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: inherit;
+  color: #333333;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -4302,7 +4399,7 @@ a.navbar-item,
       color: #363636; }
 
 .panel-list a {
-  color: inherit; }
+  color: #333333; }
   .panel-list a:hover {
     color: #3273dc; }
 
@@ -4361,7 +4458,7 @@ label.panel-block {
     border-bottom-color: #dbdbdb;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: inherit;
+    color: #333333;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;

@@ -4,6 +4,104 @@ so no initial-variables
 */
 /*  navbar hover background color */
 /*  navbar background color */
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND1-VARIABLES-*/
+/*-S1-COLOUR-BRAND1-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND2-VARIABLES-*/
+/*-S1-COLOUR-BRAND2-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND3-VARIABLES-*/
+/*-S1-COLOUR-BRAND3-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND4-VARIABLES-*/
+/*-S1-COLOUR-BRAND4-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND5-VARIABLES-*/
+/*-S1-COLOUR-BRAND5-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND6-VARIABLES-*/
+/*-S1-COLOUR-BRAND6-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND7-VARIABLES
+$brand7:                   S1-COLOUR-BRAND7-VALUE;
+S1-COLOUR-BRAND7-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND8-VARIABLES
+$brand8:                   S1-COLOUR-BRAND8-VALUE;
+S1-COLOUR-BRAND8-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND9-VARIABLES
+$brand9:                   S1-COLOUR-BRAND9-VALUE;
+S1-COLOUR-BRAND9-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-COLOUR-BRAND10-VARIABLES
+$brand10:                   S1-COLOUR-BRAND10-VALUE;
+S1-COLOUR-BRAND10-VARIABLES*/
+/*
+Top 15 google fonts in 2018:   https://kinsta.com/blog/best-google-fonts/
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-SANS-SERIF-VARIABLES
+$family-sans-serif:                 "S1-FONT-SANS-SERIF-VALUE","PT Sans", "Nunito","Source Sans Serif","Montserrat", sans-serif;
+S1-FONT-SANS-SERIF-VARIABLES*/
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Spectral");
+@import url("https://fonts.googleapis.com/css?family=Cardo");
+@import url("https://fonts.googleapis.com/css?family=Cormorant");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-SERIF-VARIABLES
+$family-serif:                 "S1-FONT-SERIF-VALUE", "Slabo 27px", "Lora", "Merriweather", "Georgia", serif;
+S1-FONT-SERIF-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-FAMILY-VARIABLES-*/
+/*-S1-FONT-FAMILY-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-BODY-BACKGROUND-BRANDCOLOUR-VARIABLES
+$body-background-color:                                    S1-BODY-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-BODY-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-BODY-TEXT-BRANDCOLOUR-VARIABLES
+$text:                                                     S1-BODY-TEXT-BRANDCOLOUR-VALUE;
+S1-BODY-TEXT-BRANDCOLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-FONT-SIZE-RATIO-VARIABLES-*/
+/*-S1-FONT-SIZE-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SIZE-RADIUS-SMALL-PIXELS-VARIABLES
+$radius-small:                        S1-SIZE-RADIUS-SMALL-PIXELS-VALUE;
+S1-SIZE-RADIUS-SMALL-PIXELS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SIZE-RADIUS-PIXELS-VARIABLES
+$radius:                              S1-SIZE-RADIUS-PIXELS-VALUE;
+S1-SIZE-RADIUS-PIXELS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SIZE-RADIUS-LARGE-PIXELS-VARIABLES
+$radius-large:                        S1-SIZE-RADIUS-LARGE-PIXELS-VALUE;
+S1-SIZE-RADIUS-LARGE-PIXELS-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-BODY-MARGIN-GAP-PIXELS-VARIABLES
+$gap:                                 S1-BODY-MARGIN-GAP-PIXELS-VALUE;
+S1-BODY-MARGIN-GAP-PIXELS-VARIABLES*/
 /*
 ----------------NAVTOP POSITION / NO COLOURS
 */
@@ -38,14 +136,17 @@ S1-NAVBASE-SMALL-FIXED-OFFSET-HEIGHT-VARIABLES*/
 $navbase-height:                   S1-NAVBASE-HEIGHT-VALUE;
 S1-NAVBASE-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VARIABLES
+$navrow1-background-color:                   S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-NAVROW1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-FONT-STYLE-VARIABLES-*/
-/*-S1-NAVROW1-FONT-STYLE-VARIABLES*/
+/*S1-NAVROW1-FONT-STYLE-VARIABLES
+$navrow1-font-style:                   S1-NAVROW1-FONT-STYLE-VALUE;
+S1-NAVROW1-FONT-STYLE-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-FONT-RATIO-VARIABLES-*/
-/*-S1-NAVROW1-FONT-RATIO-VARIABLES*/
+/*S1-NAVROW1-FONT-RATIO-VARIABLES
+$navrow1-font-ratio:                   S1-NAVROW1-FONT-RATIO-VALUE;
+S1-NAVROW1-FONT-RATIO-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVROW1-SMALL-FONT-STYLE-VARIABLES
 $navrow1-small-font-style:                   S1-NAVROW1-SMALL-FONT-STYLE-VALUE;
@@ -55,26 +156,27 @@ S1-NAVROW1-SMALL-FONT-STYLE-VARIABLES*/
 $navrow1-small-font-ratio:                   S1-NAVROW1-SMALL-FONT-RATIO-VALUE;
 S1-NAVROW1-SMALL-FONT-RATIO-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-TEXT-BRANDCOLOUR-VARIABLES-*/
-/*-S1-NAVROW1-TEXT-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVROW1-TEXT-BRANDCOLOUR-VARIABLES
+$navrow1-text-brandcolour:                   S1-NAVROW1-TEXT-BRANDCOLOUR-VALUE;
+S1-NAVROW1-TEXT-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-LINK-BRANDCOLOUR-VARIABLES-*/
-/*-S1-NAVROW1-LINK-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVROW1-LINK-BRANDCOLOUR-VARIABLES
+$navrow1-link-brandcolour:                   S1-NAVROW1-LINK-BRANDCOLOUR-VALUE;
+S1-NAVROW1-LINK-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES
 $navrow1-link-hover-brandcolour:                   S1-NAVROW1-LINK-HOVER-BRANDCOLOUR-VALUE;
 S1-NAVROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-LINK-PADDING-WIDTH-VARIABLES-*/
-/*-S1-NAVROW1-LINK-PADDING-WIDTH-VARIABLES*/
+/*S1-NAVROW1-LINK-PADDING-WIDTH-VARIABLES
+$navrow1-link-padding-width:                   S1-NAVROW1-LINK-PADDING-WIDTH-VALUE;
+S1-NAVROW1-LINK-PADDING-WIDTH-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-PADDING-TOP-HEIGHT-VARIABLES
-$navrow1-padding-top:                   S1-NAVROW1-PADDING-TOP-HEIGHT-VALUE;
-S1-NAVROW1-PADDING-TOP-HEIGHT-VARIABLES*/
+/*S1-NAVROW1-PADDING-TOP-HEIGHT-VARIABLES-*/
+/*-S1-NAVROW1-PADDING-TOP-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VARIABLES
-$navrow1-padding-bottom:                   S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VALUE;
-S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-NAVROW1-PADDING-BOTTOM-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVBASEROW1-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVBASEROW1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
@@ -87,8 +189,9 @@ S1-NAVBASEROW1-FONT-STYLE-VARIABLES*/
 $navbaserow1-font-ratio:                   S1-NAVBASEROW1-FONT-RATIO-VALUE;
 S1-NAVBASEROW1-FONT-RATIO-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW1-SMALL-FONT-STYLE-VARIABLES-*/
-/*-S1-NAVBASEROW1-SMALL-FONT-STYLE-VARIABLES*/
+/*S1-NAVBASEROW1-SMALL-FONT-STYLE-VARIABLES
+$navbaserow1-small-font-style:                   S1-NAVBASEROW1-SMALL-FONT-STYLE-VALUE;
+S1-NAVBASEROW1-SMALL-FONT-STYLE-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVBASEROW1-SMALL-FONT-RATIO-VARIABLES
 $navbaserow1-small-font-ratio:                   S1-NAVBASEROW1-SMALL-FONT-RATIO-VALUE;
@@ -101,20 +204,19 @@ S1-NAVBASEROW1-TEXT-BRANDCOLOUR-VARIABLES*/
 /*S1-NAVBASEROW1-LINK-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVBASEROW1-LINK-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
-/*-S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES
+$navbaserow1-link-hover-brandcolour:                   S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VALUE;
+S1-NAVBASEROW1-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVBASEROW1-LINK-PADDING-WIDTH-VARIABLES
 $navbaserow1-link-padding-width:                   S1-NAVBASEROW1-LINK-PADDING-WIDTH-VALUE;
 S1-NAVBASEROW1-LINK-PADDING-WIDTH-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VARIABLES
-$navbaserow1-padding-top:                   S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VALUE;
-S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VARIABLES*/
+/*S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VARIABLES-*/
+/*-S1-NAVBASEROW1-PADDING-TOP-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VARIABLES
-$navbaserow1-padding-bottom:                   S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VALUE;
-S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-NAVBASEROW1-PADDING-BOTTOM-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVBASEROW2-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVBASEROW2-BACKGROUND-BRANDCOLOUR-VARIABLES*/
@@ -131,12 +233,12 @@ S1-NAVBASEROW2-FONT-RATIO-VARIABLES*/
 $navbaserow2-small-font-style:                   S1-NAVBASEROW2-SMALL-FONT-STYLE-VALUE;
 S1-NAVBASEROW2-SMALL-FONT-STYLE-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW2-SMALL-FONT-RATIO-VARIABLES-*/
-/*-S1-NAVBASEROW2-SMALL-FONT-RATIO-VARIABLES*/
+/*S1-NAVBASEROW2-SMALL-FONT-RATIO-VARIABLES
+$navbaserow2-small-font-ratio:                   S1-NAVBASEROW2-SMALL-FONT-RATIO-VALUE;
+S1-NAVBASEROW2-SMALL-FONT-RATIO-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES
-$navbaserow2-text-brandcolour:                   S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VALUE;
-S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVBASEROW2-LINK-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVBASEROW2-LINK-BRANDCOLOUR-VARIABLES*/
@@ -148,13 +250,11 @@ S1-NAVBASEROW2-TEXT-BRANDCOLOUR-VARIABLES*/
 $navbaserow2-link-padding-width:                   S1-NAVBASEROW2-LINK-PADDING-WIDTH-VALUE;
 S1-NAVBASEROW2-LINK-PADDING-WIDTH-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VARIABLES
-$navbaserow2-padding-top:                   S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VALUE;
-S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VARIABLES*/
+/*S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VARIABLES-*/
+/*-S1-NAVBASEROW2-PADDING-TOP-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VARIABLES
-$navbaserow2-padding-bottom:                   S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VALUE;
-S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-NAVBASEROW2-PADDING-BOTTOM-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVBASEROW3-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVBASEROW3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
@@ -189,13 +289,11 @@ S1-NAVBASEROW3-TEXT-BRANDCOLOUR-VARIABLES*/
 $navbaserow3-link-padding-width:                   S1-NAVBASEROW3-LINK-PADDING-WIDTH-VALUE;
 S1-NAVBASEROW3-LINK-PADDING-WIDTH-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VARIABLES
-$navbaserow3-padding-top:                   S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VALUE;
-S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VARIABLES*/
+/*S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VARIABLES-*/
+/*-S1-NAVBASEROW3-PADDING-TOP-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VARIABLES
-$navbaserow3-padding-bottom:                   S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VALUE;
-S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-NAVBASEROW3-PADDING-BOTTOM-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVTOP-OPACITY-VARIABLES
 $navtop-opacity:                 S1-NAVTOP-OPACITY-VALUE;
@@ -257,16 +355,15 @@ S1-NAVROW2-TEXT-BRANDCOLOUR-VARIABLES*/
 /*S1-NAVROW2-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVROW2-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW2-LINK-PADDING-WIDTH-VARIABLES-*/
-/*-S1-NAVROW2-LINK-PADDING-WIDTH-VARIABLES*/
+/*S1-NAVROW2-LINK-PADDING-WIDTH-VARIABLES
+$navrow2-link-padding-width:                   S1-NAVROW2-LINK-PADDING-WIDTH-VALUE;
+S1-NAVROW2-LINK-PADDING-WIDTH-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW2-PADDING-TOP-HEIGHT-VARIABLES
-$navrow2-padding-top:                   S1-NAVROW2-PADDING-TOP-HEIGHT-VALUE;
-S1-NAVROW2-PADDING-TOP-HEIGHT-VARIABLES*/
+/*S1-NAVROW2-PADDING-TOP-HEIGHT-VARIABLES-*/
+/*-S1-NAVROW2-PADDING-TOP-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VARIABLES
-$navrow2-padding-bottom:                   S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VALUE;
-S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-NAVROW2-PADDING-BOTTOM-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVROW3-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-NAVROW3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
@@ -303,17 +400,14 @@ S1-NAVROW3-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
 $navrow3-link-padding-width:                   S1-NAVROW3-LINK-PADDING-WIDTH-VALUE;
 S1-NAVROW3-LINK-PADDING-WIDTH-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW3-PADDING-TOP-HEIGHT-VARIABLES
-$navrow3-padding-top:                   S1-NAVROW3-PADDING-TOP-HEIGHT-VALUE;
-S1-NAVROW3-PADDING-TOP-HEIGHT-VARIABLES*/
+/*S1-NAVROW3-PADDING-TOP-HEIGHT-VARIABLES-*/
+/*-S1-NAVROW3-PADDING-TOP-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VARIABLES
-$navrow3-padding-bottom:                   S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VALUE;
-S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VARIABLES-*/
+/*-S1-NAVROW3-PADDING-BOTTOM-HEIGHT-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VARIABLES
-$navfooter-logo-image:                 S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VALUE;
-S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VARIABLES*/
+/*S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VARIABLES-*/
+/*-S1-NAVFOOTER-LOGO-TOTOP-IMAGE-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVFOOTER-POSITION-VARIABLES
 $navfooter-position:                   S1-NAVFOOTER-POSITION-VALUE;
@@ -370,13 +464,11 @@ S1-NAVFOOTER-RADIUS-VARIABLES*/
 $navfooter-opacity:                 S1-NAVFOOTER-OPACITY-VALUE;
 S1-NAVFOOTER-OPACITY-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VARIABLES
-$navfooter-background-color:                   S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VALUE;
-S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVFOOTER-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-NAVFOOTER-TEXT-BRANDCOLOUR-VARIABLES
-$navfooter-text-color:                   S1-NAVFOOTER-TEXT-BRANDCOLOUR-VALUE;
-S1-NAVFOOTER-TEXT-BRANDCOLOUR-VARIABLES*/
+/*S1-NAVFOOTER-TEXT-BRANDCOLOUR-VARIABLES-*/
+/*-S1-NAVFOOTER-TEXT-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-NAVASIDE-LOGO-IMAGE-VARIABLES
 $navaside-logo-image:                 S1-NAVASIDE-LOGO-IMAGE-VALUE;
@@ -456,12 +548,44 @@ $section-box-size: 4px;
 $section-box-scale: 0.19;
 S1-SECTION-BORDER-ON-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION1-FULL-WIDTH-ON-VARIABLES
-$section1-border-on:                 S1-SECTION1-FULL-WIDTH-ON-VALUE;
-$section1-padding: initial;
-$section1-margin-left: 0px;
-$section1-margin-right: 0px;
-S1-SECTION1-FULL-WIDTH-ON-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION1-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION1-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION2-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION2-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION3-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION3-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION4-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION4-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION5-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION5-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION6-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION6-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION7-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION7-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION8-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION8-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION9-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION9-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION10-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION10-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION11-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION11-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION12-TOPBASEPADDING-HEIGHT-VARIABLES-*/
+/*-S1-SECTION12-TOPBASEPADDING-HEIGHT-VARIABLES*/
+/*S1-SECTION1-FULL-WIDTH-ON-VARIABLES-*/
+/*-S1-SECTION1-FULL-WIDTH-ON-VARIABLES*/
 /*S1-SECTION2-FULL-WIDTH-ON-VARIABLES
 $section2-border-on:                 S1-SECTION2-FULL-WIDTH-ON-VALUE;
 $section2-padding: initial;
@@ -529,72 +653,124 @@ $section12-margin-left: 0px;
 $section12-margin-right: 0px;
 S1-SECTION12-FULL-WIDTH-ON-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION1-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-SECTION1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION1-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section1-background-color:                 S1-SECTION1-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION1-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION2-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-SECTION2-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION3-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-SECTION3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION3-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section3-background-color:                 S1-SECTION3-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION3-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION4-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-SECTION4-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION5-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-SECTION5-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION5-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section5-background-color:                 S1-SECTION5-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION5-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION6-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-SECTION6-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION7-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-SECTION7-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION7-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section7-background-color:                 S1-SECTION7-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION7-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION8-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-SECTION8-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION9-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-SECTION9-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION9-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section9-background-color:                 S1-SECTION9-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION9-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION10-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
 /*-S1-SECTION10-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION11-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
-/*-S1-SECTION11-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION11-BACKGROUND-BRANDCOLOUR-VARIABLES
+$section11-background-color:                 S1-SECTION11-BACKGROUND-BRANDCOLOUR-VALUE;
+S1-SECTION11-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION12-BACKGROUND-BRANDCOLOUR-VARIABLES
-$section12-background-color:                 S1-SECTION12-BACKGROUND-BRANDCOLOUR-VALUE;
-S1-SECTION12-BACKGROUND-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION12-BACKGROUND-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION12-BACKGROUND-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION-TEXT-BRANDCOLOUR-VARIABLES
 $section-text-color:                 S1-SECTION-TEXT-BRANDCOLOUR-VALUE;
 S1-SECTION-TEXT-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
+/*S1-SECTION-P-COLOUR-VARIABLES
+$section-p-color:                 S1-SECTION-P-COLOUR-VALUE;
+S1-SECTION-P-COLOUR-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-P-FONT-STYLE-VARIABLES
+$section-p-font-style:                 S1-SECTION-P-FONT-STYLE-VALUE;
+S1-SECTION-P-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-P-FONT-WEIGHT-VARIABLES
+$section-p-font-weight:                 S1-SECTION-P-FONT-WEIGHT-VALUE;
+S1-SECTION-P-FONT-WEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-P-FONT-RATIO-VARIABLES
+$section-p-font-ratio:                 S1-SECTION-P-FONT-RATIO-VALUE;
+S1-SECTION-P-FONT-RATIO-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H1-TEXT-DECORATION-VARIABLES
+$section-h1-text-decoration:                 S1-SECTION-H1-TEXT-DECORATION-VALUE;
+S1-SECTION-H1-TEXT-DECORATION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H2-TEXT-DECORATION-VARIABLES
+$section-h2-text-decoration:                 S1-SECTION-H2-TEXT-DECORATION-VALUE;
+S1-SECTION-H2-TEXT-DECORATION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H3-TEXT-DECORATION-VARIABLES
+$section-h3-text-decoration:                 S1-SECTION-H3-TEXT-DECORATION-VALUE;
+S1-SECTION-H3-TEXT-DECORATION-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H1-FONT-STYLE-VARIABLES
+$section-h1-font-style:                 S1-SECTION-H1-FONT-STYLE-VALUE;
+S1-SECTION-H1-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H2-FONT-STYLE-VARIABLES
+$section-h2-font-style:                 S1-SECTION-H2-FONT-STYLE-VALUE;
+S1-SECTION-H2-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H3-FONT-STYLE-VARIABLES
+$section-h3-font-style:                 S1-SECTION-H3-FONT-STYLE-VALUE;
+S1-SECTION-H3-FONT-STYLE-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H1-FONT-WEIGHT-VARIABLES
+$section-h1-font-weight:                 S1-SECTION-H1-FONT-WEIGHT-VALUE;
+S1-SECTION-H1-FONT-WEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H2-FONT-WEIGHT-VARIABLES
+$section-h2-font-weight:                 S1-SECTION-H2-FONT-WEIGHT-VALUE;
+S1-SECTION-H2-FONT-WEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
+/*S1-SECTION-H3-FONT-WEIGHT-VARIABLES
+$section-h3-font-weight:                 S1-SECTION-H3-FONT-WEIGHT-VALUE;
+S1-SECTION-H3-FONT-WEIGHT-VARIABLES*/
+/*-----------------------------------------------------------------------------*/
 /*S1-SECTION-H1-BRANDCOLOUR-VARIABLES-*/
 /*-S1-SECTION-H1-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION-H2-BRANDCOLOUR-VARIABLES
-$section-h2-color:                 S1-SECTION-H2-BRANDCOLOUR-VALUE;
-S1-SECTION-H2-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION-H2-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION-H2-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION-H3-H6-BRANDCOLOUR-VARIABLES
-$section-h3-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
-$section-h4-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
-$section-h5-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
-$section-h6-color:                 S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
-S1-SECTION-H3-H6-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION-H3-H6-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION-H3-H6-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION-H1-FONT-RATIO-VARIABLES-*/
 /*-S1-SECTION-H1-FONT-RATIO-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION-H2-FONT-RATIO-VARIABLES
-$section-h2-font-ratio:                 S1-SECTION-H2-FONT-RATIO-VALUE;
-S1-SECTION-H2-FONT-RATIO-VARIABLES*/
+/*S1-SECTION-H2-FONT-RATIO-VARIABLES-*/
+/*-S1-SECTION-H2-FONT-RATIO-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION-H3-H6-FONT-RATIO-VARIABLES-*/
 /*-S1-SECTION-H3-H6-FONT-RATIO-VARIABLES*/
-/*S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VARIABLES-*/
-/*-S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
+/*S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VARIABLES
+$section-h1-base-margin:                 S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VALUE;
+S1-SECTION-H1-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
 /*S1-SECTION-H2-MARGIN-BOTTOM-HEIGHT-VARIABLES
 $section-h2-base-margin:                 S1-SECTION-H2-MARGIN-BOTTOM-HEIGHT-VALUE;
 S1-SECTION-H2-MARGIN-BOTTOM-HEIGHT-VARIABLES*/
@@ -610,13 +786,11 @@ S1-SECTION-BUTTON-RADIUS-VARIABLES*/
 $section-img-radius:                 S1-SECTION-IMAGE-RADIUS-VALUE;
 S1-SECTION-IMAGE-RADIUS-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION-LINK-BRANDCOLOUR-VARIABLES
-$section-link-color:                 S1-SECTION-LINK-BRANDCOLOUR-VALUE;
-S1-SECTION-LINK-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION-LINK-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION-LINK-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
-/*S1-SECTION-LINK-HOVER-BRANDCOLOUR-VARIABLES
-$section-link-hover-color:                 S1-SECTION-LINK-HOVER-BRANDCOLOUR-VALUE;
-S1-SECTION-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
+/*S1-SECTION-LINK-HOVER-BRANDCOLOUR-VARIABLES-*/
+/*-S1-SECTION-LINK-HOVER-BRANDCOLOUR-VARIABLES*/
 /*-----------------------------------------------------------------------------*/
 /*S1-SECTION-ICON-BRANDCOLOUR-VARIABLES
 $section-icon-color:                 S1-SECTION-ICON-BRANDCOLOUR-VALUE;
@@ -832,6 +1006,17 @@ S1-SECTION-TABLEHEAD-FONT-RATIO-VARIABLES*/
   100% {
     opacity: 0; } }
 
+#gototop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 46;
+  color: inherit; }
+
+#gototop:hover {
+  color: inherit; }
+
 body {
   color: inherit; }
 
@@ -846,31 +1031,58 @@ body {
   border-bottom: 0px solid lightgrey;
   box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0); }
 
-.section h1 {
-  color: #a574a7;
-  font-size: 1.6rem;
-  margin-bottom: 2vh; }
-
-.section h2 {
+.section p {
   color: inherit;
   font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+.section h1 {
+  color: #2053a4;
+  text-decoration: inherit;
+  font-size: 2.25em;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: inherit; }
+
+.section h2 {
+  color: #192958;
+  text-decoration: inherit;
+  font-size: 1.8em;
+  font-family: inherit;
+  font-weight: inherit;
   margin-bottom: inherit; }
 
 .section h3 {
-  color: inherit;
-  font-size: 2.2rem;
+  color: #192958;
+  text-decoration: inherit;
+  font-size: 1.3rem;
+  font-family: inherit;
+  font-weight: inherit;
   margin-bottom: inherit; }
 
 .section h4 {
-  color: inherit;
+  color: S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+  text-decoration: inherit;
+  font-size: 1.3rem;
+  font-family: inherit;
+  font-weight: inherit;
   margin-bottom: inherit; }
 
 .section h5 {
-  color: inherit;
+  color: S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+  text-decoration: inherit;
+  font-size: 1.3rem;
+  font-family: inherit;
+  font-weight: inherit;
   margin-bottom: inherit; }
 
 .section h6 {
-  color: inherit;
+  color: S1-SECTION-H3-H6-BRANDCOLOUR-VALUE;
+  text-decoration: inherit;
+  font-size: 1.3rem;
+  font-family: inherit;
+  font-weight: inherit;
   margin-bottom: inherit; }
 
 .section .table {
@@ -897,10 +1109,10 @@ body {
   border-radius: 0px; }
 
 .section a {
-  color: inherit; }
+  color: #2053a4; }
 
 .section a:hover {
-  color: inherit; }
+  color: #192958; }
 
 .section i {
   color: inherit; }
@@ -926,84 +1138,108 @@ body {
   margin-top: 0vh; }
 
 #CMSSECTION1HOLDER {
-  padding: inherit; }
+  padding: initial;
+  padding-top: -1vh;
+  padding-bottom: -1vh; }
 
 #CMSSECTION1 {
-  margin-left: 74px;
-  margin-right: 74px; }
+  margin-left: 0px;
+  margin-right: 0px; }
 
 #CMSSECTION2HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION2 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION3HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION3 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION4HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION4 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION5HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION5 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION6HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION6 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION7HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION7 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION8HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION8 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION9HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION9 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION10HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION10 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION11HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION11 {
   margin-left: 74px;
   margin-right: 74px; }
 
 #CMSSECTION12HOLDER {
-  padding: inherit; }
+  padding: inherit;
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 #CMSSECTION12 {
   margin-left: 74px;
@@ -1013,73 +1249,73 @@ body {
 .cms-section-margin1 + section,
 .cms-section-margin1 + section blockquote,
 .cms-section-margin1 + section blockquote * {
-  background-color: #dadbf1; }
+  background-color: inherit; }
 
 #CMSSECTION2,
 .cms-section-margin2 + section,
 .cms-section-margin2 + section blockquote,
 .cms-section-margin2 + section blockquote * {
-  background-color: #dfd2f3; }
+  background-color: #f5f5f5; }
 
 #CMSSECTION3,
 .cms-section-margin3 + section,
 .cms-section-margin3 + section blockquote,
 .cms-section-margin3 + section blockquote * {
-  background-color: #dadbf1; }
+  background-color: inherit; }
 
 #CMSSECTION4,
 .cms-section-margin4 + section,
 .cms-section-margin4 + section blockquote,
 .cms-section-margin4 + section blockquote * {
-  background-color: #dfd2f3; }
+  background-color: #f5f5f5; }
 
 #CMSSECTION5,
 .cms-section-margin5 + section,
 .cms-section-margin5 + section blockquote,
 .cms-section-margin5 + section blockquote * {
-  background-color: #dadbf1; }
+  background-color: inherit; }
 
 #CMSSECTION6,
 .cms-section-margin6 + section,
 .cms-section-margin6 + section blockquote,
 .cms-section-margin6 + section blockquote * {
-  background-color: #dfd2f3; }
+  background-color: #f5f5f5; }
 
 #CMSSECTION7,
 .cms-section-margin7 + section,
 .cms-section-margin7 + section blockquote,
 .cms-section-margin7 + section blockquote * {
-  background-color: #dadbf1; }
+  background-color: inherit; }
 
 #CMSSECTION8,
 .cms-section-margin8 + section,
 .cms-section-margin8 + section blockquote,
 .cms-section-margin8 + section blockquote * {
-  background-color: #dadbf1; }
+  background-color: #f5f5f5; }
 
 #CMSSECTION9,
 .cms-section-margin9 + section,
 .cms-section-margin9 + section blockquote,
 .cms-section-margin9 + section blockquote * {
-  background-color: #dfd2f3; }
+  background-color: inherit; }
 
 #CMSSECTION10,
 .cms-section-margin10 + section,
 .cms-section-margin10 + section blockquote,
 .cms-section-margin10 + section blockquote * {
-  background-color: #dadbf1; }
+  background-color: #f5f5f5; }
 
 #CMSSECTION11,
 .cms-section-margin11 + section,
 .cms-section-margin11 + section blockquote,
 .cms-section-margin11 + section blockquote * {
-  background-color: #dfd2f3; }
+  background-color: inherit; }
 
 #CMSSECTION12,
 .cms-section-margin12 + section,
 .cms-section-margin12 + section blockquote,
 .cms-section-margin12 + section blockquote * {
-  background-color: inherit; }
+  background-color: #f5f5f5; }
 
 .logo-image::before {
   content: url("../img/brand/cmsclient-small.png"); }
@@ -1117,21 +1353,21 @@ Navtop Navigation
 top navrow 1
 */
 .navrow1 {
-  background-color: #5a70dc;
-  font-family: Oswald;
-  font-size: 1.6rem;
-  color: #f9f9fc;
-  padding-top: 1vh;
-  padding-bottom: 1vh; }
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 6vh;
+  padding-bottom: 4vh; }
   @media (max-width: 769px) {
     .navrow1 {
       display: none; } }
 
 .navrow1small {
-  background-color: #5a70dc;
-  color: #f9f9fc;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  background-color: inherit;
+  color: inherit;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
   display: none; }
   @media (max-width: 769px) {
     .navrow1small {
@@ -1141,9 +1377,9 @@ top navrow 1
 
 .navrow1small .cms-navbar-item,
 .navrow1 .cms-navbar-item {
-  color: #f9f9fc;
-  padding-left: 2vh;
-  padding-right: 2vh; }
+  color: inherit;
+  padding-left: 1vw;
+  padding-right: 1vw; }
 
 .navrow1small .cms-navbar-item:hover,
 .navrow1 .cms-navbar-item:hover {
@@ -1153,7 +1389,7 @@ top navrow 1
 top navrow 2
 */
 .navrow2 {
-  background-color: #dadbf1;
+  background-color: #2053a4;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -1164,7 +1400,7 @@ top navrow 2
       display: none; } }
 
 .navrow2small {
-  background-color: #dadbf1;
+  background-color: #2053a4;
   color: inherit;
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -1177,19 +1413,19 @@ top navrow 2
 
 .navrow2small .cms-navbar-item,
 .navrow2 .cms-navbar-item {
-  color: #aeabab;
-  padding-left: 10vh;
-  padding-right: 10vh; }
+  color: #ffffff;
+  padding-left: 1vw;
+  padding-right: 1vw; }
 
 .navrow2small .cms-navbar-item:hover,
 .navrow2 .cms-navbar-item:hover {
-  color: #f9f9fc; }
+  color: #f5f5f5; }
 
 /*
 top navrow 3
 */
 .navrow3 {
-  background-color: #aeabab;
+  background-color: #f5f5f5;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -1200,7 +1436,7 @@ top navrow 3
       display: none; } }
 
 .navrow3small {
-  background-color: #aeabab;
+  background-color: #f5f5f5;
   color: inherit;
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -1255,93 +1491,93 @@ Base Navigation
 baserow1
 */
 .navbaserow1 {
-  background-color: #dadbf1;
+  background-color: #f5f5f5;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  padding-top: 1vh;
-  padding-bottom: 1vh; }
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
   @media (max-width: 769px) {
     .navbaserow1 {
       display: none; } }
 
 .navbaserow1small {
-  background-color: #dadbf1;
+  background-color: #f5f5f5;
   color: inherit;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   display: none; }
   @media (max-width: 769px) {
     .navbaserow1small {
       display: block;
-      font-family: Oswald;
+      font-family: inherit;
       font-size: inherit; } }
 
 .navbaserow1small .cms-navbar-item,
 .navbaserow1 .cms-navbar-item {
-  color: #5a70dc;
+  color: #333333;
   padding-left: 1vw;
   padding-right: 1vw; }
 
 .navbaserow1small .cms-navbar-item:hover,
 .navbaserow1 .cms-navbar-item:hover {
-  color: #40414d; }
+  color: inherit; }
 
 /*
 baserow2
 */
 .navbaserow2 {
-  background-color: #dadbf1;
+  background-color: #2053a4;
   font-family: inherit;
   font-size: inherit;
-  color: inherit;
-  padding-top: 1vh;
-  padding-bottom: 1vh; }
+  color: #ffffff;
+  padding-top: 3vh;
+  padding-bottom: 3vh; }
   @media (max-width: 769px) {
     .navbaserow2 {
       display: none; } }
 
 .navbaserow2small {
-  background-color: #dadbf1;
-  color: inherit;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  background-color: #2053a4;
+  color: #ffffff;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   display: none; }
   @media (max-width: 769px) {
     .navbaserow2small {
       display: block;
       font-family: inherit;
-      font-size: 1.9rem; } }
+      font-size: inherit; } }
 
 .navbaserow2small .cms-navbar-item,
 .navbaserow2 .cms-navbar-item {
-  color: #f9f9fc;
+  color: #ffffff;
   padding-left: 1vw;
   padding-right: 1vw; }
 
 .navbaserow2small .cms-navbar-item:hover,
 .navbaserow2 .cms-navbar-item:hover {
-  color: #40414d; }
+  color: #f5f5f5; }
 
 /*
 baserow3
 */
 .navbaserow3 {
-  background-color: #dadbf1;
+  background-color: #192958;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  padding-top: 1vh;
-  padding-bottom: 1vh; }
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
   @media (max-width: 769px) {
     .navbaserow3 {
       display: none; } }
 
 .navbaserow3small {
-  background-color: #dadbf1;
+  background-color: #192958;
   color: inherit;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   display: none; }
   @media (max-width: 769px) {
     .navbaserow3small {
@@ -1351,13 +1587,13 @@ baserow3
 
 .navbaserow3small .cms-navbar-item,
 .navbaserow3 .cms-navbar-item {
-  color: #40414d;
+  color: #ffffff;
   padding-left: 1vw;
   padding-right: 1vw; }
 
 .navbaserow3small .cms-navbar-item:hover,
 .navbaserow3 .cms-navbar-item:hover {
-  color: #aeabab; }
+  color: #f5f5f5; }
 
 /*
 */

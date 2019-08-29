@@ -222,6 +222,22 @@ function cmscomp_countdown(e) {
   }
 }
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("gototop").style.display = "block";
+  } else {
+    document.getElementById("gototop").style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 /*
 cmscomp_locale_select is used to change the page locale based on a select change on a page
 arbitary timeout of 1000 ms before looking for components of class
