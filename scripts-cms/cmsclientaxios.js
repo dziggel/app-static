@@ -213,6 +213,11 @@ function getDynamicMenuItemData(holder,d,data) {
 function setPageData(p) {
   let a = document.getElementById("cmsaccountname").innerHTML
   if (a) {
+    console.log('before encoding %s',p)
+    console.log('before encoding %s',p)
+    console.log('before encoding %s',p)
+    console.log('before encoding %s',p)
+
     AXIOSSetPage(setPageElements,a,p)
   }
 }
