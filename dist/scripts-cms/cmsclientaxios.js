@@ -776,6 +776,7 @@ function AXIOSSetPage(setTemplate, y, p) {
     let p1 = encodeURIComponent(p);
     u += p1
   }
+  console.log('after encoding %s',u)
   axios.get(u, {}).then(function(response) {
     if (response.data.axioserror) {} else {
       setTemplate(response.data)
