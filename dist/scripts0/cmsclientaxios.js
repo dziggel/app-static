@@ -21,6 +21,136 @@ function setDynamicMenu() {
 function getDynamicMenuData(data) {
   let menuparagraphid = data.menuparagraphid
   let menucomponentid = data.menucomponentid
+  // console.log('----------------')
+  // console.log(data.menuposition)
+  // console.log(data.menugroups)
+  // console.log(data.menuitems)
+  let found = false
+  if (menuparagraphid) {
+    found = true
+    getMenuParagraphIdData(menuparagraphid,data.menuposition)
+  }
+  if (menucomponentid) {
+    found = true
+    getMenuComponentIdData(menucomponentid,data.menuposition)
+  }
+  if (found == false) {
+      let x = data.menugroups
+      if (Array.isArray(x)) {
+          for (let c = 0; c < x.length; c++) {
+            getDynamicMenuLabelData(data.menutemplatetag+x[c].groupholder, x[c].contentid)
+          }
+      }
+      let y = data.menuitems
+      if (Array.isArray(y)) {
+          for (let c = 0; c < y.length; c++) {
+            getDynamicMenuItemData(data.menutemplatetag,y[c],data)
+          }
+      }
+  }
+  let show = data.menuposition
+  if (show.includes('NAVTOP-ROW1-LEFT') || show.includes('NAVTOP-ROW1-CENTER')||show.includes('NAVTOP-ROW1-RIGHT')) {
+    let cc = document.getElementsByClassName('navrow1');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVTOP-ROW2-LEFT') || show.includes('NAVTOP-ROW2-CENTER')||show.includes('NAVTOP-ROW2-RIGHT')) {
+    let cc = document.getElementsByClassName('navrow2');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVTOP-ROW3-LEFT') || show.includes('NAVTOP-ROW3-CENTER')||show.includes('NAVTOP-ROW3-RIGHT')) {
+    let cc = document.getElementsByClassName('navrow3');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVTOP-ROW1-SMALL')) {
+    let cc = document.getElementsByClassName('navrow1small');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVTOP-ROW2-SMALL')) {
+    let cc = document.getElementsByClassName('navrow2small');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVTOP-ROW3-SMALL')) {
+    let cc = document.getElementsByClassName('navrow3small');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVFOOTER-ROW1-LEFT') || show.includes('NAVFOOTER-ROW1-CENTER')||show.includes('NAVFOOTER-ROW1-RIGHT')) {
+    let cc = document.getElementsByClassName('navbaserow1');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVFOOTER-ROW2-LEFT') || show.includes('NAVFOOTER-ROW2-CENTER')||show.includes('NAVFOOTER-ROW2-RIGHT')) {
+    let cc = document.getElementsByClassName('navbaserow2');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVFOOTER-ROW3-LEFT') || show.includes('NAVFOOTER-ROW3-CENTER')||show.includes('NAVFOOTER-ROW3-RIGHT')) {
+    let cc = document.getElementsByClassName('navbaserow3');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVFOOTER-ROW1-SMALL')) {
+    let cc = document.getElementsByClassName('navbaserow1small');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVFOOTER-ROW2-SMALL')) {
+    let cc = document.getElementsByClassName('navbaserow2small');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+  if (show.includes('NAVFOOTER-ROW3-SMALL')) {
+    let cc = document.getElementsByClassName('navbaserow3small');
+    if(cc.length > 0){
+      for (let i = 0; i < cc.length; i++) {
+        cc[i].classList.remove('is-hidden')
+      }
+    }
+  }
+
+
+}
+function getDynamicMenuDataOld(data) {
+  let menuparagraphid = data.menuparagraphid
+  let menucomponentid = data.menucomponentid
   let found = false
   if (menuparagraphid) {
     found = true
@@ -54,7 +184,6 @@ function getMenuParagraphIdData(menuparagraphid,menuholder) {
 function getMenuComponentIdData(menuparagraphid,menuholder) {
   let e = document.getElementById(menuholder)
   if (e) {
-    //e.innerHTML = "<h1>component</h1>"
     AXIOS_ddcomponent_Get(menuparagraphid, e)
   }
 }
@@ -94,6 +223,7 @@ function setPageElements(data) {
       cms_dij = JSON.parse(cms_di)
 
       getPageTitleData(data.dpagetitleid)
+      getPageDescriptionData(data.dpagedescriptionid)
       /*
       central sections
       */
@@ -136,6 +266,15 @@ function getPageTitleData(dpagetitleid) {
     let e = document.getElementById(ename)
     if (e) {
       AXIOSGetContent(dpagetitleid, e)
+    }
+  }
+}
+function getPageDescriptionData(dpagedescriptionid) {
+  if (dpagedescriptionid != 'null') {
+    let ename = 'cmspagedescription'
+    let e = document.getElementById(ename)
+    if (e) {
+      AXIOSGetMetaContent(dpagedescriptionid, e)
     }
   }
 }
@@ -485,6 +624,33 @@ function AXIOSGetContent(id, e) {
     }
   })
 }
+function AXIOSGetMetaContent(id, e) {
+  let pagelocale = getPageLocale()
+  axios.get(cms_baseurl + '/AXIOSGetContent/' + id, {
+    params: {
+      withCredentials: true,
+      pagelocale: pagelocale
+    }
+  }).then(function(response) {
+    if (response.data.axioserror) {
+      e.innerHTML = ''
+    } else {
+      if (response.data.contentext == 'undefined') {
+        e.innerHTML = ''
+      } else {
+        e.setAttribute("content", response.data.contenttext);
+        //document.querySelector('meta[name="description"]').setAttribute("content", response.data.contenttext);
+      }
+    }
+  }).catch(function(error) {
+    console.log(error)
+    if (e) {
+      e.innerHTML = ''
+    }
+  })
+}
+
+
 
 function AXIOSGetContentUrl(id, e) {
 
